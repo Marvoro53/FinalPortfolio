@@ -1,0 +1,47 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Contact me
+  link(rel='stylesheet', href='/css/style.css', type='text/css' )
+
+br
+br
+
+header#home
+  ul
+    li
+      a.active(href='/') Home
+    li
+      a(href='/about') About
+    li
+      a(href='/work') My Work
+    li
+      a(href='/contact') Contact
+
+
+//contact me 
+//nodemailer
+block content
+ .container
+  form(method='post', action='contact/send')
+   h1 Contact me
+   .form-group
+    label Name: 
+    input.form-control(type='text', name='name', placeholder='Enter Name')
+   .form-group
+    label Email: 
+    input.form-control(type='email', name='email', placeholder='Enter Email')
+   .form-group
+    label Message: 
+    textarea.form-control(name='message', placeholder='Enter Message')
+   button.btn.btn-default(type='submit') Submit
+
+
+//footer
+footer#contact
+  p.p
+    | Contact me in any of this two socials below:
+  a.fa.fa-linkedin(href='https://www.linkedin.com/in/marv%C3%ADn-lara-2837761bb/')
+  a.fa.fa-github(href='https://github.com/Marvoro53')

@@ -1,0 +1,185 @@
+/*body*/
+body{
+    background-color: rgb(231, 206, 206);
+  }
+  /*navbar*/
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  /*intro style*/
+  .introduction-section,
+  .location-section,
+  .questions-section,
+  .work-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+  }
+  /* Projects Section */
+  
+  #projects{
+    background-color: #9FB168;
+    color: white;
+  }
+  
+  .big-heading{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 0px;
+    color: #B69760;
+    margin-bottom: 0px;
+  }
+  
+  /* .container{
+    padding: 100px;
+  } */
+  
+  .project-tile{
+    margin: auto;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .project{
+    width: 330px;
+    height: 320px;
+    margin: 20px;
+    background-color: #494F55;
+    border-radius: 4px;
+  }
+  
+  
+  .product-img{
+    width: 330px;
+    height: 240px;
+    box-sizing: border-box;
+    /* border-radius: 4px; */
+    /* border-top: 4px; */
+  }
+  
+  .coding{
+    color: #ff0000;
+    font-size: 16px;
+  }
+  
+  /*questions*/
+  .questions-section > h2 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.1 em;
+    font-weight: bold;
+    color: #222222;
+  }
+  /* Footer Styling */
+  footer{
+  
+    background-color: #3a3a3a;
+    text-align: center;
+    padding-bottom: 15px;
+  
+  }
+  .p{
+    text-align: center;
+    font-size: 30px;
+  }
+  /* social media icons */
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /*links*/
+  a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:link {
+    color: #B69760;
+  }
+  
+  a:visited {
+    color: #B69760;
+  }
+  
+  a:hover {
+    color: #B69760;
+  }
+  
+
+/*Contact form*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+    /* Media Queries */
+  
+  @media (max-width: 600px) {
+      .footer-distributed .footer-left, .footer-distributed .footer-right {
+        text-align: center;
+      }
+      .footer-distributed .footer-right {
+        float: none;
+        margin: 0 auto 20px;
+      }
+      .footer-distributed .footer-left p.footer-links {
+        line-height: 1.8;
+      }
+    }

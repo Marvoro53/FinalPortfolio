@@ -1,0 +1,56 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title My Work
+  link(rel='stylesheet', href='/css/style.css', type='text/css' )
+
+header#home
+  ul
+    li
+      a.active(href='/') Home
+    li
+      a(href='/about') About
+    li
+      a(href='/work') My Work
+    li
+      a(href='/contact') Contact
+
+
+block content
+section#work.work-section
+  .container
+    h2.big-heading These are some of my projects.
+    hr
+    .project-tile
+      .project
+        a(href='https://marvoro53.github.io/JS-Trivia-Game/' target='_blank')
+          .project-link
+            img.product-img(src='images/trivia.png' alt='technical-documentation-img')
+          .project-description
+            h3.project-heading
+              span.coding
+                | &lt;
+              | Basic Trivia Game
+              span.coding  /&gt;
+      .project
+        a(href='https://marvoro53.github.io/Final.Project/' target='_blank')
+          .project-link
+            img.product-img(src='images/myDenver.png' alt='product-landing-pade-img')
+          .project-description
+            h3.project-heading
+              span.coding
+                | &lt;
+              |  My Denver Project 
+              span.coding  /&gt;
+      .project
+        a(href='https://marvoro53.github.io/stoplight/' target='_blank')
+          .project-link
+            img.product-img(src='images/stoplight.png' alt='product-landing-pade-img')
+          .project-description
+            h3.project-heading
+              span.coding
+                | &lt;
+              | Stop Light exercise- simple/basic
+              span.coding  /&gt;
