@@ -34,8 +34,8 @@ body{
   /*intro style*/
   .introduction-section,
   .location-section,
-  .questions-section,
-  .work-section {
+  .questions-section
+  {
     max-width: 38em;
     margin-left: auto;
     margin-right: auto;
@@ -46,6 +46,8 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 40%;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .card:hover {
@@ -107,6 +109,10 @@ body{
   
 
 /*Contact form*/
+form{
+  margin-left: auto;
+  margin-right: auto;
+}
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
