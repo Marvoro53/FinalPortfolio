@@ -41,54 +41,19 @@ body{
     margin-right: auto;
     margin-top: 4em;
   }
-  /* Projects Section */
-  
-  #projects{
-    background-color: #9FB168;
-    color: white;
+  /*work cards*/
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
   }
   
-  .big-heading{
-    font-size: 2.5rem;
-    font-weight: 500;
-    margin-top: 0px;
-    color: #B69760;
-    margin-bottom: 0px;
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   
-  /* .container{
-    padding: 100px;
-  } */
-  
-  .project-tile{
-    margin: auto;
-    /* padding: 20px; */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    text-align: center;
-  }
-  
-  .project{
-    width: 330px;
-    height: 320px;
-    margin: 20px;
-    background-color: #494F55;
-    border-radius: 4px;
-  }
-  
-  
-  .product-img{
-    width: 330px;
-    height: 240px;
-    box-sizing: border-box;
-    /* border-radius: 4px; */
-    /* border-top: 4px; */
-  }
-  
-  .coding{
-    color: #ff0000;
-    font-size: 16px;
+  .cont {
+    padding: 2px 16px;
   }
   
   /*questions*/

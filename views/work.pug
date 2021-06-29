@@ -17,40 +17,32 @@ header#home
     li
       a(href='/contact') Contact
 
+br 
+br
 
 block content
-section#work.work-section
-  .container
-    h2.big-heading These are some of my projects.
-    hr
-    .project-tile
-      .project
-        a(href='https://marvoro53.github.io/JS-Trivia-Game/' target='_blank')
-          .project-link
-            img.product-img(src='' alt='trivia game')
-          .project-description
-            h3.project-heading
-              span.coding
-                | &lt;
-              | Basic Trivia Game
-              span.coding  /&gt;
-      .project
-        a(href='https://marvoro53.github.io/Final.Project/' target='_blank')
-          .project-link
-            img.product-img(src='myDenver.png' alt='myDenver project')
-          .project-description
-            h3.project-heading
-              span.coding
-                | &lt;
-              |  My Denver Project 
-              span.coding  /&gt;
-      .project
-        a(href='https://marvoro53.github.io/stoplight/' target='_blank')
-          .project-link
-            img.product-img(src='' alt='stoplight exercise')
-          .project-description
-            h3.project-heading
-              span.coding
-                | &lt;
-              | Stop Light exercise- simple/basic
-              span.coding  /&gt;
+.card
+  img(src='images/trivia.png' alt='trivia game' style='width:100%')
+  .container.cont
+    h4
+      b Trivia Game
+    p Basic &amp; Simple trivia game! 
+    | Find the source  
+    a(hrfe='https://github.com/Marvoro53/JS-Trivia-Game') here
+
+.card
+  img(src='images/myDenver.png' alt='myDenver project' style='width:100%')
+  .container.cont
+    h4
+      b My Denver Project
+    p Blog &amp; Informational 
+    | Find the source 
+    a(href="https://github.com/Marvoro53/Final.Project") here 
+.card
+  img(src='imgages/stoplight.png' alt='StopLight exercise' style='width:100%')
+  .container.cont
+    h4
+      b StopLight exercise
+    p Simple &amp; Basic
+    | Find the source 
+    a(href="https://github.com/Marvoro53/stoplight") here 
