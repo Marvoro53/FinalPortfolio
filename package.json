@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Marvoro53/FinalPortfolio#readme",
   "dependencies": {
+    "@heroku-cli/plugin-addons-v5": "^7.54.0",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "heroku": "^7.2.0",
